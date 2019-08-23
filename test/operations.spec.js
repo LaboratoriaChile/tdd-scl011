@@ -15,7 +15,7 @@ describe('operations', () => {
     });
     it('Debería retornar Error si falta un parametro', () => {
       assert.equal(window.operations.add(2), "Error");
-    });
+    })
 
   })
 
